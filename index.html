@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mid Exam</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body style="background-color: rgb(18, 14, 52);color: rgb(180, 185, 185);">
+  <marquee style="background-color: rgb(1, 1, 28);color: rgb(255, 0, 0);font-family:'Times New Roman', Times, serif">
+    Admission open for Spring 2025</marquee>
+
+  <!-- navbar starting -->
+  <section>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(18, 14, 52);color: rgb(180, 185, 185); ">
+      <div class="container-fluid">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="Main Logo" style="height: 70px; border-radius: 8px" />
+        <h5
+          style="color: rgb(180, 185, 185);;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: xx-large; margin-top: 12px; align-items: center; justify-content: ;">
+          Air University</h5>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto"> <!-- Added ms-auto class here -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" style="
+                                    color: rgb(180, 185, 185);;
+                                    margin-top: 14px;
+                                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                                    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                ">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/MemberShip.html" style="
+                                    color: rgb(180, 185, 185);;
+                                    margin-top: 14px;
+                                    margin-left: 15px;
+                                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                                    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                ">FACULTY & STAFF</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" style="
+                          color: rgb(180, 185, 185);;
+                          margin-top: 14px;
+                          margin-left: 10px;
+                          font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                            'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        ">ALUMNI</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" style="
+                            color: rgb(180, 185, 185);;
+                            margin-top: 14px;
+                            margin-left: 10px;
+                            font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                              'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                          ">VISITOR
+              </a>
+
+            </li>
+            <li class="nav-item" style="margin-top: 5px; margin-left: 12px;  ">
+
+              <a class="nav-link" href="join us.html">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                  <button type="button" class="btn btn-outline-light" style="width: 95px;">Light</button>
+                </form>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- navbar ending -->
+
+
+
+
+  <!-- Section for Main Body  -->
+  <section style="position: relative; height: 885px; overflow: hidden; ">
+    <img style="width: 100%; height: 100% ;" src="images/AUKharian_Img1.jpg" alt="University">
+
+
+    <!-- Overlaying the text on top of the video -->
+    <h2 style="
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: rgb(3, 5, 39);
+                font-size: 55px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                  sans-serif;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+              ">
+      <b class="justify-content-center">Air University </b>
+    </h2>
+  </section>
+  <section>
+    <div class="container-fluid " style="height: 580px; ">
+      <h6 style="font-family: Arial, Helvetica, sans-serif; font-size: 50px; padding-top: 65px; text-align: center;">
+        <b>A Societal Mission</b>
+      </h6>
+      <div class="p text-center mt-5" style="font-size: xx-large;">Air University was founded almost 150 years ago on a
+        bedrock of societal purpose. Our mission is to contribute to the world aOmZRxsiphZjGhrRxs1osBc9y7lwFyvMbhERAWruc
+        educating students for lives of leadership and contribution with integrity; advancing
+        fundamental knowledge and cultivating creativity; leading in pioneering research for effective clinical
+        therapies; and accelerating solutions and amplifying their impact.></div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-danger mt-5 h-75" type="button"
+          style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px; border-radius: 25px;">Button</button>
+
+      </div>
+    </div>
+  </section>
+  <section style="height: 620px; background-color:lightgray;color: rgb(6, 6, 66); ">
+    <h6 style="font-family: Arial, Helvetica, sans-serif; font-size: 50px; padding-top: 65px; text-align: center;">
+      <b>Academics</b>
+    </h6>
+    <div class="p text-center" style="
+          
+          
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+            Arial, sans-serif;
+          font-size: xx-large;
+        ">
+      Preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card" style="
+                width: 100%;
+                margin-left: 42%;
+                border-radius: 7px;
+                border-width: 4px;
+                border-color: white;
+              ">
+            <img src="images/messi.jpg" class="card-img-top" alt="GYM SE IMAGE1" />
+            <div class="card-body">
+              <h5 class="card-title" style="
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                    font-size: x-large;
+                    margin-left: 35%;
+                  ">
+                <b style="color: rgb(3, 36, 45);">G.O.A.T</b>
+              </h5>
+              <p class="card-text">
+                Trained more than 10,000 body builders worldwide, include the
+                6-time Olympian Champion.
+                <b style="color: rgb(55, 49, 123);">MESSI</b>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="
+                width: 100%;
+                margin-left: 53%;
+                border-radius: 7px;
+                border-width: 4px;
+                border-color: white;
+              ">
+            <img src="images/NEYMAR.webp" class="card-img-top" alt="GYM SE IMAGE1" />
+            <div class="card-body">
+              <h5 class="card-title" style="
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                    font-size: x-large;
+                    margin-left: 35%;
+                  ">
+                <b style="color: rgb(3, 36, 45);">PRINCE</b>
+              </h5>
+              <p class="card-text">
+                Top ranked instructures all over the World, who transfer
+                their's experience to those who learn.
+                <b style="color: rgb(63, 87, 16)">NEYMAR</b>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="
+                width: 100%;
+                margin-left: 63%;
+                border-radius: 7px;
+                border-width: 4px;
+                border-color: white;
+              ">
+            <img src="images/CR7.webp" class="card-img-top" alt="GYM SE IMAGE1" />
+            <div class="card-body">
+              <h5 class="card-title" style="
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                    font-size: x-large;
+                    margin-left: 28%;
+                  ">
+                <b style="color: rgb(3, 36, 45);">BEAST</b>
+              </h5>
+              <p class="card-text">
+                Karate is not to be better than someone else; it's about being
+                better than your yesterday.
+                <b style="color: rgb(8, 176, 243)">RONALDO</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 justify-content-center align-items-center">
+          <p class="text-center" style="font-size: 50px;"><b>RESEARCH</b></p>
+          <p class="mt-3 mb-5 text-center" style="font-size: 30px;">Driving discoveries vital to our world, our health
+            and our<br>intellectual life</p>
+        </div>
+      </div>
+      <div class="row">
+        <hr>
+        <div class="col-md-4">
+          <p class="text-center" style="font-size: 40px;"><b>15 Institutes</b></p>
+          <p class="mt-3 mb-5 text-center" style="font-size: 20px;">Cross disciplinary boundaries</p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-center" style="font-size: 40px;"><b>20 Libraries</b></p>
+          <p class="mt-3 mb-5 text-center" style="font-size: 20px;">Hold over 12 million items</p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-center" style="font-size: 40px;"><b>$1.98 Billion</b></p>
+          <p class="mt-3 mb-5 text-center" style="font-size: 20px;">Sponsored research budget</p>
+        </div>
+        <hr>
+      </div>
+      <div class="text-center mt-5">
+        <div class="btn btn-danger" style="width: 30%;">Click me</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid mt-5" style="width: 100%;background-color:lightgray;">
+      <P class="h1" style="color: rgb(20, 11, 96);text-align: center;" >Exhibition</P>
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <div class="card mx-2" style="width: 18rem; border: 0px; color: black;align-items: ;">
+            <img src="images/card1.jpg" class="card-img-top" style="border-radius: 5px;" alt="story-1">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-body-secondary" style="font-size: small;">
+                Lifestyle/Hobby/Popular</h6>
+              <h5 class="card-title mb-3">Star Chef From Peru to Head Public Hotel Restaurants</h5>
+              <p class="card-text" style="font-size: small;">Household few someetimes out attending
+                described. Lain just fact four of am meet high...</p>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(146, 21, 230);"
+                class="bg-secondary-subtle"><i class="fa fa-user-o"></i> Raja Rehan</a>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(82, 80, 80); margin-left: 10px;"
+                class="bg-secondary-subtle"><i class="fa fa-calendar-o"></i> October16,2024</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mx-2" style="width: 18rem; border: 0px; color: black;">
+            <img src="images/card2.jpg" class="card-img-top" style="border-radius: 5px;" alt="story-1">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-body-secondary" style="font-size: small;">
+                Lifestyle/Hobby/Popular</h6>
+              <h5 class="card-title mb-3">A Black Whiskey Entrepreneur Will Help Bankroll Like Her</h5>
+              <p class="card-text" style="font-size: small;">Household few someetimes out attending
+                described. Lain just fact four of am meet high...</p>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(146, 21, 230);"
+                class="bg-secondary-subtle"><i class="fa fa-user-o"></i> Raja Rehan</a>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(82, 80, 80); margin-left: 10px;"
+                class="bg-secondary-subtle"><i class="fa fa-calendar-o"></i> October16,2024</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mx-2" style="width: 18rem; border: 0px; color: black;">
+            <img src="images/card3.jpg" class="card-img-top" style="border-radius: 5px;" alt="story-1">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-body-secondary" style="font-size: small;">
+                Lifestyle/Hobby/Popular</h6>
+              <h5 class="card-title mb-3">For Lemon Curd in Less Than 10 Minutes, Use Your Microwave</h5>
+              <p class="card-text" style="font-size: small;">Household few someetimes out attending
+                described. Lain just fact four of am meet high...</p>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(146, 21, 230);"
+                class="bg-secondary-subtle"><i class="fa fa-user-o"></i> Raja Rehan</a>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(82, 80, 80); margin-left: 10px;"
+                class="bg-secondary-subtle"><i class="fa fa-calendar-o"></i> October16,2024</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mx-2" style="width: 18rem; border: 0px; color: black;">
+            <img src="images/card4.jpg" class="card-img-top" style="border-radius: 5px;" alt="story-1">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-3 text-body-secondary" style="font-size: small;">
+                Lifestyle/Hobby/Popular</h6>
+              <h5 class="card-title mb-3">For Lemon Curd in Less Than 10 Minutes, Use Your Microwave</h5>
+              <p class="card-text" style="font-size: small;">Household few someetimes out attending
+                described. Lain just fact four of am meet high...</p>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(146, 21, 230);"
+                class="bg-secondary-subtle"><i class="fa fa-user-o"></i> Raja Rehan</a>
+              <a style="border-radius: 5px; font-size:13px; text-decoration:none; color: rgb(82, 80, 80); margin-left: 10px;"
+                class="bg-secondary-subtle"><i class="fa fa-calendar-o"></i> October16,2024</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div style="margin-top: 4%;">
+          <h2 style="text-align: center;color: white;">Copy Rights Not Allowed</h2> 
+  </div>
+</body>
+
+</html>
